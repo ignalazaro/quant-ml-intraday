@@ -1,0 +1,9 @@
+returns_lags: [1, 3, 6, 12]
+momentum_windows: [3, 6]
+volatility:
+  std_window: 12
+zscore:
+  ma_window: 20
+rsi:
+  enabled: true
+  window: 14
