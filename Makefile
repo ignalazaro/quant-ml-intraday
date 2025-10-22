@@ -20,3 +20,9 @@ docs:
 
 precommit:
 	poetry run pre-commit install
+
+report:
+	poetry run python -m quantml.pipelines.research
+	poetry run python scripts/generate_report.py
+	mkdocs serve
+

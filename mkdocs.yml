@@ -3,13 +3,12 @@ theme:
   name: material
   features:
     - navigation.tabs
-    - content.code.copy
+    - navigation.instant
+
 nav:
-  - Home: index.md
-  - Methodology: methodology.md
-  - Architecture: architecture.md
-  - Risk Management: risk_management.md
-markdown_extensions:
-  - admonition
-  - toc:
-      permalink: true
+  - Inicio: index.md
+  - Metodología: methodology.md
+  - Arquitectura: architecture.md
+  - Resultados Recientes: results.md
+  - Notas de investigación: research_notes.md
+  - Gestión de Riesgo: risk_management.md
