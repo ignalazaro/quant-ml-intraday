@@ -1,0 +1,15 @@
+site_name: Quant ML Intraday
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - content.code.copy
+nav:
+  - Home: index.md
+  - Methodology: methodology.md
+  - Architecture: architecture.md
+  - Risk Management: risk_management.md
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true

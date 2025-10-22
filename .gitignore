@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+.envrc
+
+# Poetry
+poetry.lock
+
+# Data (no versionar)
+data/raw/*
+data/processed/*
+data/external/*
+
+# Build / coverage
+dist/
+build/
+htmlcov/
+.coverage
+
+# IDE
+.vscode/
+.idea/

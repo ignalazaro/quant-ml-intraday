@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "quant-ml-intraday"
+version = "0.1.0"
+description = "Estrategia intradía basada en ML con backtesting bar-to-bar y validación walk-forward"
+authors = ["Tu Nombre <tu.email@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "quantml", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26"
+pandas = "^2.2"
+polars = "^1.5"
+pyyaml = "^6.0"
+pydantic = "^2.7"
+torch = "^2.4"
+scikit-learn = "^1.5"
+matplotlib = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8"
+ruff = "^0.6"
+mypy = "^1.11"
+pytest = "^8.3"
+pytest-cov = "^5.0"
+mkdocs = "^1.6"
+mkdocs-material = "^9.5"
+pre-commit = "^3.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
