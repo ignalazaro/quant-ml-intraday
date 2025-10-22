@@ -1,0 +1,5 @@
+lags: [1, 3, 6, 12]
+momentum_windows: [3, 6]
+vol_windows: [12]
+zscore_window: 20
+include_rsi: true

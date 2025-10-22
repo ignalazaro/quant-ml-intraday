@@ -1,0 +1,6 @@
+symbols:
+  - "SYNTH"
+timeframe: "1h"
+data_dir: "data"
+tz: "UTC"
+source: "synthetic"

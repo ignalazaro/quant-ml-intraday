@@ -1,0 +1,8 @@
+model: "mlp"
+
+mlp:
+  hidden_sizes: [64, 32]
+  dropout: 0.1
+  lr: 0.001
+  batch_size: 256
+  epochs: 25

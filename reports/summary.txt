@@ -1,0 +1,8 @@
+Symbol: SYNTH
+Timeframe: 1h
+Features: 11
+Train bars: 456 | Test bars: 24
+Sharpe: -0.550
+Sortino: -0.888
+MaxDD: -7.365%
+CAGR: -2.533%
