@@ -1,6 +1,6 @@
+import pandas as pd
 import torch
 from torch.utils.data import DataLoader
-import pandas as pd 
 
 from src.quantml.modeling.datasets import OhlcDataset
 from src.quantml.modeling.metrics import mse, r2_score

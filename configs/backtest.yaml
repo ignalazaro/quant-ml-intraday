@@ -1,0 +1,7 @@
+fees: 0.0005
+slippage: 0.0002
+periods_per_year: 252
+freq: "1h"
+walkforward:
+  train_bars: 120
+  test_bars: 24
